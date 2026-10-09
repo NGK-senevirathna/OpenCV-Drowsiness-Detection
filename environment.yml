@@ -1,0 +1,11 @@
+name: drowsiness-env
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - opencv-python
+      - numpy
+      - scipy
+      - dlib
+      - imutils
